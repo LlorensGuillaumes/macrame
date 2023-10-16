@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Barlow;
+  src: url("./fonts/Barlow-Thin.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: transparent;
+  font-family: Barlow;
+  font-weight: bolder;
+}
+a{
+  color: #58c4c4;
+  
+}
+body {
+
+background-image: url("./Images/fondo.png");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+ /* background-color: red;  */
+}
+.appContainer{
+  width: 100%;
+ 
+}

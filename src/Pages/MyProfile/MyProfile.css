@@ -1,0 +1,13 @@
+.myProfileContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+}
+.purchaseContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vh;
+}

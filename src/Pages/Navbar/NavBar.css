@@ -1,0 +1,96 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin-bottom: 2rem;
+}
+.navbarContainerRightButons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1.563rem;
+}
+.navbarContainerLeftButons {
+  display: flex;
+  align-items: center;
+  padding-left: 2.5rem;
+}
+.btnNavbar {
+  display: flex;
+  background-color: transparent;
+  padding: 0.438rem;
+  font-size: 1.563rem;
+}
+.iconNavBarContainer {
+  width: 3.75rem;
+  margin-right: 0.625rem;
+}
+.favoritesNavBarContainer {
+  width: 55px;
+  margin-right: 0.625rem;
+}
+.iconNavBar {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+.btnRegister {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.563rem;
+  border-radius: 1rem;
+  background-color: #bae2e2;
+  cursor: pointer;
+}
+.itemsCarrito {
+  background-color: #bae2e2;
+  font-size: 1.875rem;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 10rem;
+  margin-right: 0.625rem;
+}
+
+.selectFamily{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.listFamiliesContainer{
+  position: absolute;
+  top:55px;
+  background-color: #bae2e2;
+  border-radius: 1rem;
+  padding: 0.625rem;
+  z-index: 9999;
+}
+.listFamilyItem{
+  font-display: flex;
+  width: 18.75rem;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.listAdminItem{
+  font-display: flex;
+  width: 15.625rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.listProductsContainer{
+  position: absolute;
+  top:55px;
+  left: 11.25rem;
+  background-color: #bae2e2;
+  border-radius: 1rem;
+  padding: 0.625rem;
+}
+.navbarText{
+  font-size: 1.2rem;
+}

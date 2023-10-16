@@ -1,0 +1,104 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.loginItemsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.loginInput {
+  width: 30%;
+  height: 1.875rem;
+  margin-bottom: 3.125rem;
+  border-radius: 1rem;
+  padding: 0.438rem;
+  border: solid 1px #19dbdb;
+  font-weight: bold;
+}
+
+.loginText {
+  background-color: transparent !important;
+  color: #19dbdb;
+  font-weight: bold;
+  border: 0px;
+}
+.passwordConditions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+.confirmPassword{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #bae2e2;
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  padding: 2rem;
+  
+}
+.confirmPassword h1 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.confirmPassword h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.inputCode{
+  border: 0px;
+  border-radius: 2rem;
+  padding: 1rem;
+  background-color: white;
+  margin-top: 1rem;
+  text-align: center;
+}
+.cookies{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #bae2e2;
+  z-index: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 2rem;
+  padding: 2rem;
+  width: 50vh;
+  height: 50vh;
+}
+.cookiesText{
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+.cookiesBtn{
+  padding: 1rem;
+  cursor: pointer;
+  border: 0px;
+  font-size: 2rem;
+}
+.loginOptions{
+  color: #19dbdb;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}

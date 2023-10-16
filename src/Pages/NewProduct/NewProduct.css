@@ -1,0 +1,193 @@
+.newProductContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+}
+.selectCategory {
+  height: 2.813rem;
+}
+.nameCategory {
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+}
+.nameInput {
+  display: flex;
+  width: 90%;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem !important;
+}
+.selectCategory {
+  width: 90%;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem !important;
+  margin-top: 1.563rem !important;
+}
+.inputDescription {
+  display: flex;
+  align-items: flex-start;
+  width: 90%;
+  height: 12.5rem;
+  margin-bottom: 3.125rem;
+  border-radius: 1rem;
+  padding: 0.438rem;
+  border: solid 1px #19dbdb;
+  font-weight: bold;
+}
+.formatImage {
+  border-radius: 2rem;
+  position: relative;
+  width: 12.5rem;
+  height: 18.75rem;
+  overflow: hidden;
+}
+
+.prova {
+  object-fit: contain;
+  width: 100%;
+}
+.btnFormatImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 0.625rem;
+}
+.btnFormatImage {
+  width: 2.5rem;
+  border: 0px;
+}
+.iconoImagen {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.preSelectImage {
+  display: flex;
+}
+.imagesListContainer {
+  display: flex;
+  flex-direction: row;
+}
+.imagePreSave {
+  display: flex;
+  width: 12.5rem;
+  margin-right: 0.625rem;
+}
+.littleImagesImage {
+  width: 100%;
+  object-position: center;
+}
+.chargeImageContainer {
+  display: flex;
+  margin-top: 0.938rem;
+  margin-bottom: 0.438rem;
+}
+.ChargeImages {
+  background-color: #bae2e2 !important;
+  border: 0px;
+  border-radius: 1rem;
+  padding: 0.563rem;
+}
+.btnImageSave {
+  background-color: #bae2e2;
+  height: 2.5rem;
+  border-radius: 1rem;
+  border: 0px;
+  cursor: pointer;
+  padding: 0.563rem;
+}
+.inputProduct {
+  display: flex;
+}
+.inputData {
+  width: 50%;
+}
+.imputSelectImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.colorSelect {
+  height: 2.813rem !important;
+  margin-bottom: 0.625rem;
+  width: 13.125rem;
+}
+
+.btnAdd {
+  width: 6.25rem;
+  margin-left: 0.625rem;
+}
+
+.stockList {
+  margin-top: 0.625rem;
+  width: 18.75rem;
+  height: 1.563rem;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #19dbdb;
+  border-radius: 2rem;
+  padding: 0.625rem;
+}
+
+.stokItem {
+  width: 6.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stokUnits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.25rem;
+}
+.stokTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.938rem;
+}
+.stokButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.25rem;
+  border: 0px;
+  cursor: pointer;
+}
+.navProducts {
+  margin-left: 0.438rem;
+}
+.productsTitle {
+  margin-left: 3.125rem;
+}
+
+.findProduct {
+  display: flex;
+  align-items: center;
+}
+
+.findInput {
+  border: 0px;
+  margin-right: 0.313rem;
+  background-color: #bae2e2;
+  border-radius: 2rem;
+  width: 18.75rem;
+  padding: 0.625rem;
+  height: 1.563rem;
+}
+
+.modifyProductData {
+  display: flex;
+  flex-direction: column;
+}
+.upper{
+  text-transform: uppercase;
+}
+.lower{
+  text-transform: lowercase;
+}

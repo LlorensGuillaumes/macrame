@@ -1,0 +1,109 @@
+.cartContainer {
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cartItem {
+  width: 70%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px black solid;
+}
+.itemProduct {
+  width: 35%;
+}
+.itemColor {
+  width: 25%;
+}
+.itemUnits {
+  text-align: center;
+  width: 10%;
+}
+.itemPrice {
+  text-align: end;
+  width: 15%;
+}
+.itemSubTotal {
+  text-align: end;
+  width: 15%;
+}
+.papeleraIcon {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.papeleraContainer {
+  width: 25px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.allPrices {
+  margin-top: 50px;
+}
+.btnBuy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bae2e2;
+  padding: 15px;
+  border-radius: 2rem;
+  border: 0px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.imageContainerCartItem {
+  width: 100px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.imageCartItem {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.name_treadType {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.name_treadType h2 {
+  width: 100%;
+
+  margin-bottom: 0.3rem;
+}
+.name_treadType p {
+  width: 100%;
+}
+.miniColorImages{
+    width: 75px;
+    cursor: pointer;
+}
+.miniColorImages:hover{
+    transform: scale(350%);
+}
+.miniColorImageImage{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.colorNameAndImage{
+    display: flex;
+    flex-direction: row;
+}
+.toPdf{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

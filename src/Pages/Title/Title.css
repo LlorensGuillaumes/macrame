@@ -1,0 +1,31 @@
+/* @font-face {
+  font-family: "Holiday";
+  src: url("../fonts/HolidayFree.otf");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: Barlow;
+  src: url("../fonts/Barlow-Thin.ttf");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+.titleContain {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  padding-left: 40px;
+}
+
+.headboardContain {
+  display: flex;
+  width: 100%;
+}
+.headboard {
+  display: flex;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}

@@ -1,0 +1,52 @@
+.historySection{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.historyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.historyText{
+    text-align: justify;
+    font-size: 1.563rem;
+    margin-bottom: 1.563rem;
+}
+.withImage{
+    width: 45%;
+}
+.text_image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+.historyImage{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.historyImageContainer {
+    width: 35%;
+    margin-left: 13%;
+}
+.tapiz{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.historyTapizContainer{
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.subTitle{
+    font-size: 2rem;
+}

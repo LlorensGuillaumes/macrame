@@ -1,0 +1,36 @@
+.diameterItemContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #bae2e2;
+    width: 8rem;
+    border: 0px;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+}
+.newDiameter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.diameterInput{
+    padding: 0.8rem;
+    text-align: center;
+    border: 0px;
+    background-color: #bae2e2;
+    border-radius: 2rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+
+}
+.btnSaveDiameter{
+    background-color: #bae2e2;
+    border: 0px;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    width: 8rem;
+    margin-bottom: 5rem;
+}

@@ -1,0 +1,47 @@
+.providersContainer{
+    padding-left: 20px;
+}
+.providersTitle{
+    display: flex;
+    justify-content: center;
+}
+.providersItemContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: center;
+    background-color: #bae2e2;
+    padding: 10px;
+    border-radius: 2rem;
+    width: 300px;
+}
+.providersItem{
+    display: flex;
+    font-size: 25px;
+    margin: 3px;
+
+}
+.providersItemsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.provider_email{
+    font-size: 1rem;
+}
+.provider_web{
+    font-size: 0.8rem;
+    color: black;
+}
+.provider_name{
+    font-size: 1rem;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}

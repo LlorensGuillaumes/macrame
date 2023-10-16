@@ -1,0 +1,11 @@
+.treadsItemContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    background-color: #bae2e2;
+    width: 15rem;
+    border-radius: 2rem;
+    margin: 1rem;
+
+}

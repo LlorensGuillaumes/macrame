@@ -1,0 +1,93 @@
+.purchaseContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    position: relative;
+}
+.sendTitle{
+    margin-bottom: 1rem;
+}
+
+.sendDirection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+.lbSendDirection {
+    width: 150px;
+    
+}
+.inputDirecction {
+    border-radius: 2rem;
+    padding: 0.4rem;
+    border: 1px solid #bae2e2;
+    margin-left: 0.2rem;
+    margin-right: 1rem;
+    text-transform: uppercase;
+
+}
+.cp{
+    width: 5rem;
+}
+.town{
+    width: 25rem;
+}
+.province {
+    width: 32rem;
+}
+.street {
+    width: 32rem;
+}
+.number{
+    width: 5rem;
+}
+.door{
+    width: 5rem;
+}
+
+.directionLines{
+    margin-top: 0.8rem;
+    display: flex;
+}
+.obs{
+    width: 32em;
+}
+.telf{
+    width: 32rem;
+    margin-top: 1rem;
+}
+.nif{
+    margin-top: 1rem; 
+}
+
+.btnAccept{
+    background-color: #bae2e2;
+    border: 0px;
+    border-radius: 1em;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.purchaseOk{
+    position: absolute;
+    background-color: #bae2e2;
+    border-radius: 2rem;
+    padding: 1rem;
+
+}
+.myPurchase{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.purchaseItemContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}

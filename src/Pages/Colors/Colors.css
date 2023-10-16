@@ -1,0 +1,108 @@
+.colorImageContainer{
+    width: 10rem;
+    margin-top: 3rem;
+}
+.colorImageItem{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.colorsManage{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.listImagesContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.listImageItem{
+    width: 85%;
+}
+.listImageImage{
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    background-color: transparent;
+    border-radius: 2rem;
+}
+.listImageName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    width: 85%;
+}
+.newColorContainer{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+.error{
+    margin-bottom: 0.5rem;
+    color: red;
+}
+.colorsTittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameCategory{
+    width: 300px;
+    margin-top: 10px;
+}
+.nameInput{
+    width: 300px;
+}
+
+.color_name{
+    font-size: 0.8rem;
+    text-align: center;
+}
+.name_image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.btnSaveColorImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bae2e2;
+    padding: 0.8rem;
+    border: 0px;
+    border-radius: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+.chargeImageContainer{
+    margin-bottom: 2rem;
+}
+.preSelectImage{
+    display: flex;
+    justify-content: space-between;
+}
+.formatImage{
+    border: 2px solid black;
+    padding: 0.2rem;
+}
+.btnColorSave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bae2e2;
+    padding: 0.8rem;
+    border: 0px;
+    border-radius: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+}

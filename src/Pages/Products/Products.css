@@ -1,0 +1,203 @@
+.productsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.125rem;
+  width: 100%;
+}
+.productItem {
+  width: 90%;
+  padding: 0.625rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.125rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.productImageContainer {
+  display: flex;
+  width: 18.75rem;
+  
+}
+
+.productImageContainer:hover{
+  width: 100vh;
+  z-index: 100;
+}
+.productImageImage {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 2rem;
+}
+.productDescription {
+  width: 80%;
+  margin-left: 1.25rem;
+  font-size: 1.25rem;
+  overflow: hidden;
+  padding: 0.938rem;
+}
+.productDescriptionText {
+  display: flex;
+  text-align: justify;
+}
+.itemOptions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 25%;
+  padding-top: 1.563rem;
+}
+.favouriteContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  margin-right: 1.875rem;
+}
+.favouriteLogo {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.imagesProduct {
+  display: flex;
+  width: 33.125rem;
+  flex-direction: column;
+}
+.litteImageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.313rem;
+}
+.litteImagesItems {
+  width: 100px;
+  margin-right: 0.625rem;
+}
+.litteImages {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.middleContainer {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.productName {
+  padding: 0.938rem;
+  margin-left: 1.25rem;
+  margin-top: 0.625rem;
+}
+.priceContainer {
+  margin-left: 1.25rem;
+  padding-left: 0.938rem;
+  padding-bottom: 0.313rem;
+  font-size: 2.188rem;
+  font-weight: bold;
+}
+
+.basicColors {
+  display: flex;
+  flex-wrap: wrap;
+}
+.basicColorItem {
+  width: 1.563rem;
+  height: 1.563rem;
+  margin: 0.313rem;
+  border: solid 1px black;
+  border-radius: 5rem;
+}
+.selectBasicColorContainer {
+  margin-left: 1.875rem;
+}
+.treadsListContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+}
+.treadslist {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+}
+.treadslistActual {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.938rem;
+
+}
+
+.treadListItem {
+  display: flex;
+  width: 208px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.treadListItemActual {
+  display: flex;
+  width: 208px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+.treadsListTitle {
+  font-weight: bold;
+}
+.addToStock {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7px;
+  margin-top: 0.938rem;
+  width: 100%;
+}
+.unitsInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.313rem !important;
+  height: 1.875rem;
+  width: 3.125rem !important;
+  border-radius: 1rem;
+  padding: 7px;
+  border: solid 1px #19dbdb;
+  font-weight: bold;
+  text-align: center;
+}
+.addStockContainer{
+  margin-top: 3.125rem;
+}
+.selectFilter {
+  width: 200px !important;
+  height: 2.5rem !important;
+  margin-right: 0.625rem;
+  margin-bottom: 0.625rem !important;
+  margin-top: 1.563rem !important;
+}
+.hidden{
+  display: none;
+}
+.inputToStok{
+  display: flex;
+  align-items: center;
+  flex-direction: row !important;
+  margin-top: 1.25rem;
+}
+
+.modifyProduct{
+  display: flex;
+}
+.confirmDeleteInput{
+  margin-left: 0.938rem;
+}
+.btnShowAll{
+  margin-left: 1.875rem;
+}
